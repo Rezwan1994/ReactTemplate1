@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 
+import './assets/css/bootstrap.min.css'
+import './assets/css/style.css'
+
+import './assets/css/responsive.css'
+import './assets/css/jquery.mCustomScrollbar.min.css'
 ReactDOM.render(
   <React.StrictMode>
     <App />
