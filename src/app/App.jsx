@@ -1,4 +1,6 @@
 import HomePage from '../pages/Home'
+import AboutPage from '../pages/About'
+import ProductPage from '../pages/Product'
 import {Helmet} from 'react-helmet'
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"/>
       </Helmet>
       <HomePage/>
+      <AboutPage/>
+      <ProductPage/>
     </div>
   );
 }
