@@ -11,7 +11,7 @@ function AboutPage(){
     return <div>
         <NavBar/>
         <HeaderMenu/>
-        <PageIntro/>
+        <PageIntro label = "About"/>
         
         <div className="about">
             <div className="container">
