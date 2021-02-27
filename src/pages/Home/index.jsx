@@ -18,8 +18,8 @@ function HomePage()
         <HeaderMenu/>
         <Slider/>
 
-        <div className="whyschose">
-         <div className="container">
+    <div className="whyschose">
+        <div className="container">
             <div className="row">
                <div className="col-md-7 offset-md-3">
                   <div className="title">
