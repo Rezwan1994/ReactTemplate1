@@ -10,7 +10,7 @@ function ProductPage(){
     return <div>
         <NavBar/>
         <HeaderMenu/>
-        <PageIntro/>
+        <PageIntro label = "Product"/>
         
         <div className="about">
             <div className="container">
